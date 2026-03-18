@@ -6,7 +6,7 @@ export default function Navbar() {
       initial={{ y: -10, opacity: 0 }}
       animate={{ y: 0, opacity: 1 }}
       transition={{ duration: 0.3 }}
-      className="h-16 border-b border-dark-border/50 bg-dark-card/60 backdrop-blur-md flex items-center justify-between px-6 flex-shrink-0"
+      className="h-16 border-b border-white/10 bg-white/5 backdrop-blur-md flex items-center justify-between px-6 flex-shrink-0"
     >
       <div className="flex items-center gap-4">
         <h2 className="text-slate-300 font-medium text-lg">Welcome back</h2>
@@ -14,16 +14,16 @@ export default function Navbar() {
         <span className="text-sm text-slate-500 hidden sm:inline">Medical AI Dashboard</span>
       </div>
       <div className="flex items-center gap-4">
-        <div className="flex items-center gap-2 px-3 py-1.5 rounded-lg bg-dark-bg/80 border border-dark-border/50">
-          <span className="w-2 h-2 rounded-full bg-neon-green animate-pulse" />
+        <div className="flex items-center gap-2 px-3 py-1.5 rounded-lg bg-[#0b0f14]/80 border border-white/10">
+          <span className="w-2 h-2 rounded-full bg-[#00ffcc] animate-pulse" />
           <span className="text-xs text-slate-400">Live</span>
         </div>
-        <button className="p-2 rounded-lg hover:bg-dark-hover/50 text-slate-400 hover:text-white transition-colors">
+        <button className="p-2 rounded-lg hover:bg-white/10 text-slate-400 hover:text-white transition-colors">
           <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9" />
           </svg>
         </button>
-        <div className="w-9 h-9 rounded-full bg-gradient-to-br from-neon-green/30 to-neon-blue/30 border border-neon-green/30 flex items-center justify-center text-neon-green font-semibold text-sm">
+        <div className="w-9 h-9 rounded-full bg-gradient-to-br from-[#00ffcc]/30 to-neon-blue/30 border border-[#00ffcc]/30 flex items-center justify-center text-[#00ffcc] font-semibold text-sm">
           U
         </div>
       </div>

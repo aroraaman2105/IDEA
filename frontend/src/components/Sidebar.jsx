@@ -14,12 +14,12 @@ export default function Sidebar() {
       initial={{ x: -20, opacity: 0 }}
       animate={{ x: 0, opacity: 1 }}
       transition={{ duration: 0.3 }}
-      className="w-64 flex-shrink-0 border-r border-dark-border/50 bg-dark-card/40 backdrop-blur-md flex flex-col"
+      className="w-64 flex-shrink-0 border-r border-white/10 bg-white/5 backdrop-blur-md flex flex-col"
     >
-      <div className="p-6 border-b border-dark-border/50">
+      <div className="p-6 border-b border-white/10">
         <div className="flex items-center gap-3">
-          <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-neon-green/20 to-neon-blue/20 flex items-center justify-center border border-neon-green/30 shadow-glowGreen">
-            <span className="text-neon-green font-bold text-lg font-mono">T</span>
+          <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-[#00ffcc]/20 to-neon-blue/20 flex items-center justify-center border border-[#00ffcc]/30 shadow-glowGreen">
+            <span className="text-[#00ffcc] font-bold text-lg font-mono">T</span>
           </div>
           <div>
             <h1 className="font-semibold text-white text-lg tracking-tight">TELIPORT AI</h1>
@@ -36,8 +36,8 @@ export default function Sidebar() {
             className={({ isActive }) =>
               `flex items-center gap-3 px-4 py-3 rounded-lg transition-all duration-200 ${
                 isActive
-                  ? 'bg-neon-green/10 text-neon-green border border-neon-green/20 shadow-glow'
-                  : 'text-slate-400 hover:text-slate-200 hover:bg-dark-hover/50 border border-transparent'
+                  ? 'bg-[#00ffcc]/10 text-[#00ffcc] border border-[#00ffcc]/20 shadow-glow'
+                  : 'text-slate-400 hover:text-slate-200 hover:bg-white/10 border border-transparent'
               }`
             }
           >
@@ -52,7 +52,7 @@ export default function Sidebar() {
           </NavLink>
         ))}
       </nav>
-      <div className="p-4 border-t border-dark-border/50">
+      <div className="p-4 border-t border-white/10">
         <div className="glass-card p-3 rounded-lg border-neon-blue/20">
           <p className="text-xs text-slate-400">AI Assistant</p>
           <p className="text-sm text-neon-blue font-medium">Ready</p>
