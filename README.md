@@ -37,7 +37,8 @@ Runs at `http://localhost:5173`. API requests to `/api/*` are proxied to the bac
 
 ## Routes
 
-- `/` — Dashboard
-- `/assessments` — Assessments
-- `/sessions` — Sessions
-- `/settings` — Settings
+- `/` — Landing page (marketing)
+- `/dashboard` — Dashboard
+- `/dashboard/assessments` — Assessments
+- `/dashboard/sessions` — Sessions
+- `/dashboard/settings` — Settings
